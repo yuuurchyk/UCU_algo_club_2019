@@ -19,7 +19,7 @@ Materials are partially taken from [codechef.com](https://www.codechef.com/ioi/b
 
 ### Materials
 
-NOTE: These pdfs contains my notes and tips. I had some issues with displaying them.
+**NOTE**: These pdfs contains my notes and tips. I had some issues with displaying them. I recommend using **Adobe Acrobat Reader** under **Windows** and **Okular** under **Linux** and **MAC**.
 
 * [Introduction to C++](Materials/Introduction_to_C++.pdf)
 * [Data Types](Materials/DATATYPES+.pdf)
