@@ -17,12 +17,8 @@ You should have [cmake](https://cmake.org/) installed on your system
 
 Materials are partially taken from [codechef.com](https://www.codechef.com/ioi/basics#) - Introductory Tutorials For Competitive Programming
 
-[Introduction to C++](Materials/Introduction_to_C++.pdf)
-
-[Data Types](Materials/DATATYPES+.pdf)
-
-[Control Flow](Materials/Control_Flow.pdf)
-
-[Input Output](Materials/IO.pdf)
-
-Functions
+* [Introduction to C++](Materials/Introduction_to_C++.pdf)
+* [Data Types](Materials/DATATYPES+.pdf)
+* [Control Flow](Materials/Control_Flow.pdf)
+* [Input Output](Materials/IO.pdf)
+* Functions
