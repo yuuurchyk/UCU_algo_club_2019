@@ -17,6 +17,8 @@ You should have [cmake](https://cmake.org/) installed on your system
 
 Materials are partially taken from [codechef.com](https://www.codechef.com/ioi/basics#) - Introductory Tutorials For Competitive Programming
 
+### Materials
+
 NOTE: These pdfs contains my notes and tips. I had some issues with displaying them.
 
 * [Introduction to C++](Materials/Introduction_to_C++.pdf)
@@ -24,6 +26,10 @@ NOTE: These pdfs contains my notes and tips. I had some issues with displaying t
 * [Control Flow](Materials/Control_Flow.pdf)
 * [Input Output](Materials/IO.pdf)
 * Functions
+
+### Notions
+* Object lifetime
+* stack vs heap vs static memory
 
 ## Problems
 
