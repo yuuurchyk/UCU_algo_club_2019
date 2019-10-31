@@ -7,7 +7,7 @@ Other choices: **[vscode](https://code.visualstudio.com/)**, **[codeblocks](http
 
 ### Installation
 
-#### Preprequisites (WINDOWS)
+#### Preprequisites (Windows)
 Before installation you should install C++ compiling and building tools installed on your system. One of the options is to install [cygwin](https://www.cygwin.com/) with the following packages: **gcc-g++**, **make**, **cmake**, **gdb**. See more info [here](https://www.jetbrains.com/help/clion/quick-tutorial-on-configuring-clion-on-windows.html)
 
 #### Preprequisites (MAC, Linux)
