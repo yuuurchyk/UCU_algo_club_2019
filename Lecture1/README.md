@@ -28,8 +28,10 @@ NOTE: These pdfs contains my notes and tips. I had some issues with displaying t
 * Functions
 
 ### Notions
+* compiled vs interpreted programming language
 * Object lifetime
 * stack vs heap vs static memory
+* const vs constexpr
 
 ## Problems
 
