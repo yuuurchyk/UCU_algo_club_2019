@@ -2,7 +2,7 @@
 Materials for algo club at UCU
 
 ## Lectures List
-#### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (DRAFT)
+#### 1. [C++ introduction, implementation tasks](Lecture1/README.md)
 #### 2. [C++ introduction (cont.), implementation tasks](Lecture2/README.md) (DRAFT)
 #### 3. Numbers Theory, Recursion
 #### 4. Bitwise Operations, Merge Sort, Divide and Conquer

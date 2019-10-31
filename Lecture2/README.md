@@ -5,4 +5,5 @@ Topics list:
     <li>containers, iterators, algorithms</li>
     <li>scanf, printf</li>
     <li>debugging process</li>
+    <li>references and pointers</li>
 </ul>

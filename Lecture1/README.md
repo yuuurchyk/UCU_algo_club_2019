@@ -17,8 +17,22 @@ You should have [cmake](https://cmake.org/) installed on your system
 
 Materials are partially taken from [codechef.com](https://www.codechef.com/ioi/basics#) - Introductory Tutorials For Competitive Programming
 
+NOTE: These pdfs contains my notes and tips. I had some issues with displaying them.
+
 * [Introduction to C++](Materials/Introduction_to_C++.pdf)
 * [Data Types](Materials/DATATYPES+.pdf)
 * [Control Flow](Materials/Control_Flow.pdf)
 * [Input Output](Materials/IO.pdf)
 * Functions
+
+## Problems
+
+See problems [here](https://vjudge.net/contest/339635). Password: 47
+
+## References
+
+Use google if you don't know some language concepts or syntax
+
+C++ references can be found here:
+* [cppreference](https://en.cppreference.com/w/)
+* [cplusplus.com](http://www.cplusplus.com/)
