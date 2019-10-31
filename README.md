@@ -11,6 +11,10 @@ Materials for algo club at UCU
 * [csacademy](https://csacademy.com/)
 * [atcoder](https://atcoder.jp/)
 * [timus](http://acm.timus.ru/) - hardcore
+* [leetcode](https://leetcode.com/) - more suitable for preparing for the interview
+
+## Resources
+* [e-maxx](https://e-maxx.ru/) - it's like a Bible
 
 ## Lectures List
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md)
