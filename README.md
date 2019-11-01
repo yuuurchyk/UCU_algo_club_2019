@@ -1,4 +1,4 @@
-# UCU_algo_club_2019
+# UCU_alko_club_2019
 Materials for algo club at UCU
 
 ## Platforms
