@@ -31,6 +31,9 @@ Other resources:
     * [No Link, Cut Tree](http://codeforces.com/problemset/gymProblem/101484/F)
     * [Home by trains](https://www.e-olymp.com/en/problems/750)
     * [C, Buggy Robot](http://codeforces.com/gym/101291)
+* Graph Theory problems from [lecture 7](Lecture7/README.md):
+    * [A, Attack on Alpha-Zet](https://codeforces.com/gym/102021)
+    * [Minimum Spanning Tree](https://www.e-olymp.com/en/problems/981)
 
 ## Lectures List
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
@@ -39,6 +42,6 @@ Other resources:
 #### 4. [Numbers Theory, Recursion](Lecture4/README.md) (22.11.19)
 #### 5. [Bitwise Operations, Merge Sort, Divide and Conquer](Lecture5/README.md) (29.11.19)
 #### 6. [Graph Theory](Lecture6/README.md) (05.12.19)
-#### 7. Graph Theory (cont.)
+#### 7. [Graph Theory (cont.)](Lecture7/README.md) (12.12.19)
 #### 8. Binary Search, Dynamic Programming
 #### 9. Segment Tree, sqrt Decomposition, Fenwick Tree
