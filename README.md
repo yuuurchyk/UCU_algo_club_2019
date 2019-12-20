@@ -24,13 +24,14 @@ Other resources:
 * C++ containers practice from [lecture 2](Lecture2/README.md) can be found on **[vjudge](https://vjudge.net/contest/340937)**. Password: ```47```
 * C++ containres practice from [Uzhgorod Programming Summer School 2019](http://codeschool.uzhnu.edu.ua/en) can be found here: **[pdf](Lecture2/Materials/Statements.pdf)**
 * Numbers Theory tasks from [lecture 4](Lecture4/README.md) can be found on **[vjudge](https://vjudge.net/contest/342783)**. Password: ```47```
+* Merge Sort, Divide and Conquer, Bits Manipulation tasks from [lecture 5](Lecture5/README.md) can be found on **[vjudge](https://vjudge.net/contest/345933)**. Password: ```47```
 
 ## Lectures List
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
 #### 2. [C++ introduction (cont.), implementation tasks](Lecture2/README.md) (08.11.19)
 #### 3. [C++ introduction (cont.), problem session](Lecture3/README.md) (11.11.19)
 #### 4. [Numbers Theory, Recursion](Lecture4/README.md) (22.11.19)
-#### 5. Bitwise Operations, Merge Sort, Divide and Conquer
+#### 5. [Bitwise Operations, Merge Sort, Divide and Conquer](Lecture5/README.md) (29.11.19)
 #### 6. Graph Theory
 #### 7. Graph Theory (cont.)
 #### 8. Binary Search, Dynamic Programming
