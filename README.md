@@ -25,6 +25,12 @@ Other resources:
 * C++ containres practice from [Uzhgorod Programming Summer School 2019](http://codeschool.uzhnu.edu.ua/en) can be found here: **[pdf](Lecture2/Materials/Statements.pdf)**
 * Numbers Theory tasks from [lecture 4](Lecture4/README.md) can be found on **[vjudge](https://vjudge.net/contest/342783)**. Password: ```47```
 * Merge Sort, Divide and Conquer, Bits Manipulation tasks from [lecture 5](Lecture5/README.md) can be found on **[vjudge](https://vjudge.net/contest/345933)**. Password: ```47```
+* Graph Theory problems from [lecture 6](Lecture6/README.md):
+    * [Interesting Vertices](https://codeforces.com/gym/102348/problem/B?locale=en)
+    * [C, Coolest Ski Route](https://codeforces.com/gym/102021)
+    * [No Link, Cut Tree](http://codeforces.com/problemset/gymProblem/101484/F)
+    * [Home by trains](https://www.e-olymp.com/en/problems/750)
+    * [C, Buggy Robot](http://codeforces.com/gym/101291)
 
 ## Lectures List
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
@@ -32,7 +38,7 @@ Other resources:
 #### 3. [C++ introduction (cont.), problem session](Lecture3/README.md) (11.11.19)
 #### 4. [Numbers Theory, Recursion](Lecture4/README.md) (22.11.19)
 #### 5. [Bitwise Operations, Merge Sort, Divide and Conquer](Lecture5/README.md) (29.11.19)
-#### 6. Graph Theory
+#### 6. [Graph Theory](Lecture6/README.md) (05.12.19)
 #### 7. Graph Theory (cont.)
 #### 8. Binary Search, Dynamic Programming
 #### 9. Segment Tree, sqrt Decomposition, Fenwick Tree
