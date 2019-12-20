@@ -19,8 +19,11 @@ Other resources:
 ## Resources
 * [e-maxx](https://e-maxx.ru/) - collection of the algorithms used in competitive programming with derivations and code pieces. **Preferred** reference web-site for any algorithm, covered on the lectures. There are English and Russian versions.
 
+## Problems:
+* from [lecture 1: C++ introduction, implementation tasks](Lecture1/README.md) can be found on **[vjudge](https://vjudge.net/contest/339635)**. Password: 47
+
 ## Lectures List
-#### 1. C++ introduction, implementation tasks
+#### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
 #### 2. C++ introduction (cont.), implementation tasks
 #### 3. C++ introduction (cont.), problem session
 #### 4. Numbers Theory, Recursion
