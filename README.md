@@ -20,11 +20,13 @@ Other resources:
 * [e-maxx](https://e-maxx.ru/) - collection of the algorithms used in competitive programming with derivations and code pieces. **Preferred** reference web-site for any algorithm, covered on the lectures. There are English and Russian versions.
 
 ## Problems:
-* from [lecture 1: C++ introduction, implementation tasks](Lecture1/README.md) can be found on **[vjudge](https://vjudge.net/contest/339635)**. Password: 47
+* C++ implementation tasks from [lecture 1](Lecture1/README.md) can be found on **[vjudge](https://vjudge.net/contest/339635)**. Password: ```47```
+* C++ containers practice from [lecture 2](Lecture2/README.md) can be found on **[vjudge](https://vjudge.net/contest/340937)**. Password: ```47```
+* C++ containres practice from [Uzhgorod Programming Summer School 2019](http://codeschool.uzhnu.edu.ua/en) can be found here: **[pdf](Lecture2/Materials/Statements.pdf)**
 
 ## Lectures List
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
-#### 2. C++ introduction (cont.), implementation tasks
+#### 2. [C++ introduction (cont.), implementation tasks](Lecture2/README.md) (08.11.19)
 #### 3. C++ introduction (cont.), problem session
 #### 4. Numbers Theory, Recursion
 #### 5. Bitwise Operations, Merge Sort, Divide and Conquer
