@@ -27,7 +27,7 @@ Other resources:
 ## Lectures List
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
 #### 2. [C++ introduction (cont.), implementation tasks](Lecture2/README.md) (08.11.19)
-#### 3. C++ introduction (cont.), problem session
+#### 3. [C++ introduction (cont.), problem session](Lecture3/README.md) (11.11.19)
 #### 4. Numbers Theory, Recursion
 #### 5. Bitwise Operations, Merge Sort, Divide and Conquer
 #### 6. Graph Theory
