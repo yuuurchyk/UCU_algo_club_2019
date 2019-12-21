@@ -34,6 +34,20 @@ Other resources:
 * Graph Theory problems from [lecture 7](Lecture7/README.md):
     * [A, Attack on Alpha-Zet](https://codeforces.com/gym/102021)
     * [Minimum Spanning Tree](https://www.e-olymp.com/en/problems/981)
+* Binary Search problems from [lecture 8](Lecture8/README.md):
+    * [Депутатські краватки](https://algotester.com/en/ArchiveProblem/Display/8)
+    * [C, K-Dominant Character](http://codeforces.com/problemset/problem/888/C)
+    * [C, Sad Powers](http://codeforces.com/problemset/problem/955/C)
+    * [D, Monitor](http://codeforces.com/problemset/problem/846/D)
+    * [Archi and Barik](Lecture8/Materials/Problem.jpg)
+* Dynamic Programming problems from [lecture 8](Lecture8/README.md):
+    * [KNAPSACK - The Knapsack Problem](https://www.spoj.com/problems/KNAPSACK/)
+    * [DBALLZ - Help the Heroes](https://www.spoj.com/problems/DBALLZ/)
+    * [Триміно](https://www.e-olymp.com/uk/problems/236)
+    * [Tiling Dominoes](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2245)
+    * [ANARC05B - The Double HeLiX](https://www.spoj.com/problems/ANARC05B/en/)
+    * [C, Square Subsets](https://codeforces.com/contest/895/problem/C?locale=en)
+    * [I, Inversion](https://codeforces.com/gym/101964/problem/I)
 
 ## Lectures List
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
@@ -43,5 +57,5 @@ Other resources:
 #### 5. [Bitwise Operations, Merge Sort, Divide and Conquer](Lecture5/README.md) (29.11.19)
 #### 6. [Graph Theory](Lecture6/README.md) (05.12.19)
 #### 7. [Graph Theory (cont.)](Lecture7/README.md) (12.12.19)
-#### 8. Binary Search, Dynamic Programming
+#### 8. [Binary Search, Dynamic Programming](Lecture8/README.md) (20.12.19)
 #### 9. Segment Tree, sqrt Decomposition, Fenwick Tree
