@@ -1,5 +1,17 @@
 # UCU_algo_club_2019
 
+## Lectures List
+
+#### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
+#### 2. [C++ introduction (cont.), implementation tasks](Lecture2/README.md) (08.11.19)
+#### 3. [C++ introduction (cont.), problem session](Lecture3/README.md) (11.11.19)
+#### 4. [Numbers Theory, Recursion](Lecture4/README.md) (22.11.19)
+#### 5. [Bitwise Operations, Merge Sort, Divide and Conquer](Lecture5/README.md) (29.11.19)
+#### 6. [Graph Theory](Lecture6/README.md) (05.12.19)
+#### 7. [Graph Theory (cont.)](Lecture7/README.md) (12.12.19)
+#### 8. [Binary Search, Dynamic Programming](Lecture8/README.md) (20.12.19)
+#### 9. Segment Tree, sqrt Decomposition, Fenwick Tree
+
 ## Platforms
 
 Main platforms:
@@ -48,14 +60,3 @@ Other resources:
     * [ANARC05B - The Double HeLiX](https://www.spoj.com/problems/ANARC05B/en/)
     * [C, Square Subsets](https://codeforces.com/contest/895/problem/C?locale=en)
     * [I, Inversion](https://codeforces.com/gym/101964/problem/I)
-
-## Lectures List
-#### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
-#### 2. [C++ introduction (cont.), implementation tasks](Lecture2/README.md) (08.11.19)
-#### 3. [C++ introduction (cont.), problem session](Lecture3/README.md) (11.11.19)
-#### 4. [Numbers Theory, Recursion](Lecture4/README.md) (22.11.19)
-#### 5. [Bitwise Operations, Merge Sort, Divide and Conquer](Lecture5/README.md) (29.11.19)
-#### 6. [Graph Theory](Lecture6/README.md) (05.12.19)
-#### 7. [Graph Theory (cont.)](Lecture7/README.md) (12.12.19)
-#### 8. [Binary Search, Dynamic Programming](Lecture8/README.md) (20.12.19)
-#### 9. Segment Tree, sqrt Decomposition, Fenwick Tree
