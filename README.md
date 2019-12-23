@@ -10,7 +10,7 @@
 #### 6. [Graph Theory](Lecture6/README.md) (05.12.19)
 #### 7. [Graph Theory (cont.)](Lecture7/README.md) (12.12.19)
 #### 8. [Binary Search, Dynamic Programming](Lecture8/README.md) (20.12.19)
-#### 9. Segment Tree, sqrt Decomposition, Fenwick Tree
+#### 9. [SQRT Decomposition, Mo's Algorithm, Segment Tree](Lecture9/README.md) (27.12.19)
 
 ## Platforms
 
@@ -60,3 +60,8 @@ Other resources:
     * [ANARC05B - The Double HeLiX](https://www.spoj.com/problems/ANARC05B/en/)
     * [C, Square Subsets](https://codeforces.com/contest/895/problem/C?locale=en)
     * [I, Inversion](https://codeforces.com/gym/101964/problem/I)
+* Segment Tree problems from [lecture 9](Lecture9/README.md):
+    * [Minimum](https://algotester.com/en/ArchiveProblem/Display/40148)
+    * [B, Little Elephant and Array](https://codeforces.com/contest/220/problem/B)
+    * [Monkey and Apple-trees](https://www.e-olymp.com/en/problems/7488)
+    * [E, Lucky Queries](http://codeforces.com/contest/145/problem/E?locale=ru)
