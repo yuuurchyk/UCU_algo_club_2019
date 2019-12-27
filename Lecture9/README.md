@@ -211,7 +211,137 @@ Final complexity: ```O(n * sqrt(n) + m * sqrt(n))```
 
 ## Solution of the problem - full code piece:
 
-To be filled on the lecure.
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+
+const int kMaxN = 100000;
+const int kBlockSize = 320;
+
+int arr[kMaxN];
+
+int n, m;
+
+int blocknum(int i){
+    return i / kBlockSize;
+}
+
+struct Query{
+    int id = 0;
+    int l = 0;
+    int r = 0;
+    int res = 0;
+};
+vector<Query> queries;
+
+bool mo_order(const Query &lhs, const Query &rhs){
+    int lb = blocknum(lhs.l);
+    int rb = blocknum(rhs.l);
+
+    if(lb < rb)
+        return true;
+    if(lb > rb)
+        return false;
+
+    return lhs.r < rhs.r;
+}
+bool cmp_id(const Query &lhs, const Query &rhs){
+    return lhs.id < rhs.id;
+}
+
+int res;
+unordered_map<int, int> counter;
+int l, r;
+
+void incl(){
+    ++l;
+    --counter[arr[l - 1]];
+
+    if(counter[arr[l - 1]] == arr[l - 1])
+        ++res;
+    if(counter[arr[l - 1]] == arr[l - 1] - 1)
+        --res;
+}
+void decl(){
+    --l;
+    ++counter[arr[l]];
+
+    if(counter[arr[l]] == arr[l])
+        ++res;
+    if(counter[arr[l]] == arr[l] + 1)
+        --res;
+}
+void incr(){
+    ++r;
+    ++counter[arr[r]];
+
+    if(counter[arr[r]] == arr[r])
+        ++res;
+    if(counter[arr[r]] == arr[r] + 1)
+        --res;
+}
+void decr(){
+    --r;
+    --counter[arr[r + 1]];
+
+    if(counter[arr[r + 1]] == arr[r + 1])
+        ++res;
+    if(counter[arr[r + 1]] == arr[r + 1] - 1)
+        --res;
+}
+
+void solve(){
+    l = queries[0].l;
+    r = queries[0].r;
+
+    for(int i = l; i <= r; ++i)
+        ++counter[arr[i]];
+    for(const auto &it: counter){
+        int number = it.first;
+        int occurances = it.second;
+        if(number == occurances)
+            ++res;
+    }
+    queries[0].res = res;
+
+    for(int i = 1; i < queries.size(); ++i){
+        while(r < queries[i].r)
+            incr();
+        while(l > queries[i].l)
+            decl();
+        while(l < queries[i].l)
+            incl();
+        while(r > queries[i].r)
+            decr();
+        queries[i].res = res;
+    }
+}
+
+int main(){
+    cin >> n >> m;
+    for(int i = 0; i < n; ++i)
+        cin >> arr[i];
+    for(int i = 0; i < m; ++i){
+        int l, r; cin >> l >> r;
+        --l;
+        --r;
+
+        Query q;
+        q.l = l;
+        q.r = r;
+        q.id = i;
+        queries.push_back(q);
+    }
+
+    sort(queries.begin(), queries.end(), &mo_order);
+    solve();
+    sort(queries.begin(), queries.end(), &cmpid);
+    for(const auto &it: queries)
+        cout << it.res << endl;
+    return 0;
+}
+```
 
 # Segment Tree
 
@@ -286,7 +416,92 @@ Why? Consider the following corner case:
 
 ### Final Code Piece
 
-To be done on the lecture
+Solution to the [minimum](http://algotester.com/en/ArchiveProblem/Display/40148) problem on algotester:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+using ll = long long;
+
+const int kMaxN = 111111;
+
+int n, m;
+int arr[kMaxN + 10];
+int tree[kMaxN * 4 + 10];
+
+void maintain(int v){
+    tree[v] = tree[2 * v + 1] + tree[2 * v + 2];
+    // HERE YOU CAN WRITE YOUR SEGMENT TREE LOGIC
+    // it can be either min, max, sum or other stuff
+}
+
+void build(int v, int tl, int tr){
+    if(tl == tr){
+        tree[v] = arr[tl];
+        return;
+    }
+
+    int tm = (tl + tr) / 2;
+    build(2 * v + 1, tl, tm);
+    build(2 * v + 2, tm + 1, tr);
+
+    maintain(v);
+}
+
+void update(int v, int tl, int tr, int i, int val){
+    if(tl == tr){
+        tree[v] = val;
+        return;
+    }
+
+    int tm = (tl + tr) / 2;
+    if(i <= tm)
+        update(2 * v + 1, tl, tm, i, val);
+    else
+        update(2 * v + 2, tm + 1, tr, i, val);
+
+    maintain(v);
+}
+
+int get_sum(int v, int tl, int tr, int l, int r){
+    if(l > r)
+        return 0;
+    if(tl == l && tr == r)
+        return tree[v];
+
+    int tm = (tl + tr) / 2;
+
+    return (
+        get_sum(2 * v + 1, tl, tm, l, min(r, tm)) +
+        get_sum(2 * v + 2, tm + 1, tr, max(tm + 1, l), r)
+    );
+}
+
+int main(){
+    cin >> n >> m;
+    for(int i = 0; i < n; ++i)
+        cin >> arr[i];
+    build(0, 0, n - 1);
+    for(int i = 0; i < m; ++i){
+        string query_type; cin >> query_type;
+
+        if(query_type == "query"){
+            int l, r; cin >> l >> r;
+            --l; --r;
+            cout << get_sum(0, 0, n - 1, l, r) << endl;
+        }
+        else{
+            int i, val;
+            cin >> i >> val;
+            --i;
+            update(0, 0, n - 1, i, val);
+        }
+    }
+
+    return 0;
+}
+```
 
 # Implicit Segment Tree
 
