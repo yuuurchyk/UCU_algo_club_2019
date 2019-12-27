@@ -1,5 +1,11 @@
 # UCU_algo_club_2019
 
+This repo contains lecture materials that I used while teaching algorithms club at Ukrainian Catholic University. It is oriented towards freshmen students, who are not familiar with competitive programming and C++ programming language.
+
+Lectures are mostly in english and so are the problem statements.
+
+Hovewer, there are some some tasks available only in russian/ukrainian. Unfortunately, the main reference web-site, [e-maxx.ru](https://e-maxx.ru/algo/) is written in russian, but there are some unofficial translation web-sites like [cp-algorithms.com](https://cp-algorithms.com/). You can try reading the references there.
+
 ## Lectures List
 
 #### 1. [C++ introduction, implementation tasks](Lecture1/README.md) (01.11.19)
